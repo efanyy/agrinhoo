@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agrinho Paraná - Festejando a Conexão Campo Cidade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator"></div>
+
+    <!-- Header -->
+    <header>
+      <nav class="container">
+        <div class="logo">Agrinho Paraná</div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#campo">Campo</a></li>
+          <li><a href="#cidade">Cidade</a></li>
+          <li><a href="#conexao">Conexão</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Seção 1: Hero -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h1>Festejando a Conexão Campo Cidade</h1>
+        <p>
+          Descobrindo as pontes que unem a tradição rural com a inovação urbana
+          no coração do Paraná
+        </p>
+        <a href="#sobre" class="cta-button">Explore Nossa Jornada</a>
+      </div>
+      <div
+        class="scroll-down"
+        onclick="document.getElementById('sobre').scrollIntoView({behavior: 'smooth'})"
+      >
+        Deslize para baixo
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- Seção 2: Sobre o Programa -->
+    <section id="sobre" class="sobre">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Sobre o Agrinho Paraná</h2>
+        <div class="sobre-content">
+          <div class="sobre-text animate-on-scroll">
+            <h3>Unindo Tradições e Inovações</h3>
+            <p>
+              O Programa Agrinho Paraná é uma iniciativa educacional que celebra
+              a rica conexão entre o campo e a cidade, promovendo o entendimento
+              sobre a importância da agricultura e do desenvolvimento
+              sustentável para o futuro do nosso estado.
+            </p>
+            <p>
+              Através de atividades educativas, projetos comunitários e
+              parcerias estratégicas, construímos pontes entre o conhecimento
+              tradicional rural e as inovações urbanas, criando um futuro mais
+              sustentável e próspero para todos os paranaenses.
+            </p>
+            <p>
+              Nossa missão é inspirar uma nova geração de cidadãos conscientes
+              sobre a interdependência entre campo e cidade, promovendo valores
+              de sustentabilidade, cooperação e desenvolvimento regional
+              integrado.
+            </p>
+          </div>
+          <div class="sobre-image animate-on-scroll">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tuscany-grape-field-nature-51947-eS4msfJIq7sL9NIpzYezFaifWke31o.jpeg"
+              alt="Agricultura sustentável"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 3: Campo -->
+    <section id="campo" class="campo">
+      <div class="container">
+        <div class="campo-grid">
+          <div class="campo-content animate-on-scroll">
+            <h2 class="section-title">A Força do Campo</h2>
+            <h3>Raízes da Prosperidade</h3>
+            <p>
+              O campo paranaense é o berço da nossa identidade, onde tradições
+              milenares se encontram com tecnologias modernas para alimentar o
+              mundo e preservar nosso meio ambiente. A agricultura sustentável e
+              a pecuária de precisão são exemplos de como o setor rural evolui
+              constantemente.
+            </p>
+
+            <div class="campo-features">
+              <div class="feature-card animate-on-scroll">
+                <h4>🌾 Agricultura Sustentável</h4>
+                <p>
+                  Práticas que respeitam a terra e garantem produtividade para
+                  as gerações futuras
+                </p>
+              </div>
+              <div class="feature-card animate-on-scroll">
+                <h4>🚜 Tecnologia Rural</h4>
+                <p>
+                  Inovação aplicada ao campo para maior eficiência e menor
+                  impacto ambiental
+                </p>
+              </div>
+              <div class="feature-card animate-on-scroll">
+                <h4>🌱 Preservação Ambiental</h4>
+                <p>
+                  Cuidado com o meio ambiente e biodiversidade como prioridade
+                </p>
+              </div>
+              <div class="feature-card animate-on-scroll">
+                <h4>👨‍🌾 Tradição Familiar</h4>
+                <p>
+                  Conhecimento passado através de gerações que valoriza nossa
+                  cultura
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="campo-image animate-on-scroll">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-photo-265216-fiHtWKQqyBuAe0pEK47C6NBvL7m1OP.jpeg"
+              alt="Campo de trigo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 4: Cidade -->
+    <section id="cidade" class="cidade">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">O Pulsar da Cidade</h2>
+        <div class="cidade-showcase">
+          <div class="cidade-image animate-on-scroll">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-photo-302769-KExU2AGQ6pzioCGDzIdkK8Mh6pt5Lr.jpeg"
+              alt="Skyline urbano"
+            />
+          </div>
+          <div class="cidade-content animate-on-scroll">
+            <h3>Inovação e Desenvolvimento</h3>
+            <p>
+              As cidades paranaenses são centros de inovação, educação e
+              desenvolvimento econômico, onde as oportunidades florescem e o
+              futuro é construído através da colaboração e criatividade.
+            </p>
+            <p>
+              Aqui, a tecnologia encontra propósito, a educação transforma vidas
+              e as empresas crescem com responsabilidade social e ambiental,
+              criando um ecossistema urbano que respeita suas origens rurais.
+            </p>
+
+            <div class="stats-grid">
+              <div class="stat-item animate-on-scroll">
+                <div class="stat-number">85%</div>
+                <p>População Urbana</p>
+              </div>
+              <div class="stat-item animate-on-scroll">
+                <div class="stat-number">1.2M</div>
+                <p>Empregos Gerados</p>
+              </div>
+              <div class="stat-item animate-on-scroll">
+                <div class="stat-number">450+</div>
+                <p>Empresas Inovadoras</p>
+              </div>
+              <div class="stat-item animate-on-scroll">
+                <div class="stat-number">95%</div>
+                <p>Acesso à Educação</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 5: Conexão -->
+    <section id="conexao" class="conexao">
+      <div class="container">
+        <h2
+          class="section-title animate-on-scroll"
+          style="color: white; -webkit-text-fill-color: white"
+        >
+          A Ponte que Nos Une
+        </h2>
+        <p
+          class="animate-on-scroll"
+          style="font-size: 1.2rem; max-width: 800px; margin: 0 auto 2rem"
+        >
+          A verdadeira força do Paraná está na harmoniosa conexão entre campo e
+          cidade, onde cada um contribui com suas forças únicas para construir
+          um futuro próspero e sustentável para todos.
+        </p>
+
+        <div class="conexao-visual">
+          <div class="conexao-card animate-on-scroll">
+            <div class="conexao-icon">🌾</div>
+            <h3>Campo</h3>
+            <p>
+              Produção de alimentos, preservação ambiental e tradições culturais
+              que alimentam e inspiram nossas comunidades urbanas.
+            </p>
+          </div>
+          <div class="conexao-card animate-on-scroll">
+            <div class="conexao-icon">🤝</div>
+            <h3>Conexão</h3>
+            <p>
+              Parcerias estratégicas, troca de conhecimentos e colaboração que
+              fortalecem ambos os ambientes e criam sinergia.
+            </p>
+          </div>
+          <div class="conexao-card animate-on-scroll">
+            <div class="conexao-icon">🏙️</div>
+            <h3>Cidade</h3>
+            <p>
+              Inovação tecnológica, educação avançada e oportunidades econômicas
+              que impulsionam o desenvolvimento rural.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 6: Galeria -->
+    <section id="galeria" class="galeria">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Momentos que Inspiram</h2>
+        <p
+          class="animate-on-scroll text-center mb-4"
+          style="
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+          "
+        >
+          Descubra a beleza da conexão campo-cidade através de imagens que
+          contam nossa história e celebram nossa diversidade
+        </p>
+
+        <div class="galeria-grid">
+          <div class="galeria-item animate-on-scroll">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-photo-1048039-PGQUkg292UBcRKXFI4FzUG1L3V6NL6.jpeg"
+              alt="Paisagem rural"
+            />
+            <div class="galeria-overlay">
+              <div class="galeria-text">Horizontes Verdes</div>
+            </div>
+          </div>
+          <div class="galeria-item animate-on-scroll">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-photo-409127-EFlODudjeAJYsYx9s3DXlZMRheR57s.jpeg"
+              alt="Vista urbana"
+            />
+            <div class="galeria-overlay">
+              <div class="galeria-text">Cidade Sustentável</div>
+            </div>
+          </div>
+          <div class="galeria-item animate-on-scroll">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tuscany-grape-field-nature-51947-eS4msfJIq7sL9NIpzYezFaifWke31o.jpeg"
+              alt="Agricultura"
+            />
+            <div class="galeria-overlay">
+              <div class="galeria-text">Cultivo do Futuro</div>
+            </div>
+          </div>
+          <div class="galeria-item animate-on-scroll">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-photo-302769-KExU2AGQ6pzioCGDzIdkK8Mh6pt5Lr.jpeg"
+              alt="Skyline"
+            />
+            <div class="galeria-overlay">
+              <div class="galeria-text">Inovação Urbana</div>
+            </div>
+          </div>
+          <div class="galeria-item animate-on-scroll">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-photo-265216-fiHtWKQqyBuAe0pEK47C6NBvL7m1OP.jpeg"
+              alt="Campo de trigo"
+            />
+            <div class="galeria-overlay">
+              <div class="galeria-text">Tradição Dourada</div>
+            </div>
+          </div>
+          <div class="galeria-item animate-on-scroll">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-photo-1048039-PGQUkg292UBcRKXFI4FzUG1L3V6NL6.jpeg"
+              alt="Natureza"
+            />
+            <div class="galeria-overlay">
+              <div class="galeria-text">Harmonia Natural</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 7: Contato -->
+    <section id="contato" class="contato">
+      <div class="container">
+        <h2
+          class="section-title animate-on-scroll"
+          style="color: white; -webkit-text-fill-color: white"
+        >
+          Junte-se à Nossa Missão
+        </h2>
+        <p
+          class="animate-on-scroll"
+          style="font-size: 1.2rem; max-width: 800px; margin: 0 auto 2rem"
+        >
+          Faça parte da transformação que conecta campo e cidade. Sua
+          participação é fundamental para construirmos um futuro mais
+          sustentável e próspero para o Paraná.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Agrinho Paraná</h4>
+            <p>
+              Conectando campo e cidade para um futuro sustentável e próspero no
+              coração do Paraná.
+            </p>
+            <p>
+              Programa educacional que celebra a interdependência entre os
+              ambientes rural e urbano.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Links Úteis</h4>
+            <a href="#">Programa Educacional</a>
+            <a href="#">Parcerias Institucionais</a>
+            <a href="#">Recursos Pedagógicos</a>
+            <a href="#">Calendário de Eventos</a>
+            <a href="#">Notícias e Atualizações</a>
+          </div>
+          <div class="footer-section">
+            <h4>Contato</h4>
+            <p><strong>E-mail:</strong> contato@agrinhoparana.gov.br</p>
+            <p><strong>Telefone:</strong> (41) 3333-4444</p>
+            <p>
+              <strong>Endereço:</strong> Av. República Argentina, 1944 - Centro,
+              Curitiba - PR, 80620-010
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Redes Sociais</h4>
+            <div>
+              <a href="#" class="social-icon">🌐</a>
+              <a href="#" class="social-icon">📸</a>
+              <a href="#" class="social-icon">🐦</a>
+              <a href="#" class="social-icon">💼</a>
+            </div>
+            <p class="mt-3">
+              Inscreva-se em nossa newsletter para receber atualizações sobre o
+              programa.
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Agrinho Paraná. Todos os direitos reservados. Festejando
+            a conexão campo cidade.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <div class="back-to-top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M18 15l-6-6-6 6" />
+      </svg>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
